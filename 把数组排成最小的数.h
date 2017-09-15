@@ -20,7 +20,6 @@ public:
 			stream<<numbers[i];  
 			stream>>strArray[i];  
 		}  
-  
 		sort(strArray.begin(),strArray.end(),compare()); 
 		string res="";
 		for(i = 0; i < num; i++)
